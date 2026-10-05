@@ -11,3 +11,16 @@ venv/
 .claude/
 *.tmp
 ~$*
+
+# 도면 세트 분석 출력 (analyze_set.py)
+output/
+
+# 도면 원본 (용량이 커서 저장소에 넣지 않음)
+sample_dxf/
+*.dxf
+
+# 회사 CAD 파일 (담당자가 제공한 샘플 파트, 모델링 결과물)
+*.SLDPRT
+*.sldprt
+*.SLDASM
+*.SLDDRW
